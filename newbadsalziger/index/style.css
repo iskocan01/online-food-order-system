@@ -1,0 +1,496 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+:root{
+	--clr : #222327;
+	--green: #29fd53;
+}
+
+body{
+	background-color: var(--clr);
+	color: white;
+}
+ 
+
+.card {
+	display: flex;
+}
+
+.card .image{
+	width: 30%;
+}
+
+.card .content{
+	width: 30%;
+}
+
+
+
+
+
+/*
+*	for card disyn
+*
+*/
+
+ 
+.switch {
+  position: relative;
+  margin: 5px auto;
+  
+
+  display: inline-block;
+  width: 200px; /* Boyut korundu */
+  height: 54px;
+  border-radius: 17px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 17px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: calc(100% - 4px); /* Yükseklik ayarlandı */
+  width: 96px; /* Genişlik ayarlandı */
+  left: 2px; /* Sol kenar boşluğu ayarlandı */
+  bottom: 2px; /* Alt kenar boşluğu ayarlandı */
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 13px; /* Yarıçap ayarlandı */
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(100px); /* Sağa kaydırma mesafesi */
+  transform: translateX(100px);
+}
+
+.option {
+  color: black; /* Renk Değiştirildi */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 50%; /* Yeni */
+}
+
+.eve-servis, .gel-al {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  text-align: center;
+}
+
+.eve-servis {
+  left: 0;
+  display: block;
+}
+
+.gel-al {
+  right: 0;
+  display: block; /* Düzenlendi */
+  visibility: hidden; /* Yeni */
+}
+
+input:checked ~ .slider .eve-servis {
+  visibility: hidden; /* Checkbox işaretlendiğinde Eve Servis gizli */
+}
+
+input:checked ~ .slider .gel-al {
+  visibility: visible; /* Checkbox işaretlendiğinde Gel Al görünür */
+}
+
+	
+
+/*
+*	foodcard disyn end
+*
+*/
+
+
+
+
+
+
+/*
+*	foodcard disyn
+*
+*/
+	.food-card{
+			
+			padding: 10px 20px ;
+			margin-top: 28px;
+
+		}
+
+		.food-card  {
+
+			box-shadow: 15px 15px 40px red;
+			border-bottom: 2px solid red ;
+			border-right: 2px solid red;
+			padding-bottom: 15px;
+		}
+/*
+		.food-card .row .image::after{
+			content: "";
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			border-top-left-radius: 20px;
+			background: transparent;
+			box-shadow: -15px -15px 15px yellow;
+			left: 5px;
+			top: -2px;
+		}
+*/		
+		.image {
+			 
+		        display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    height: 100%; /* Div'in yüksekliğini 100% olarak ayarla */
+		}
+		.image{
+		 margin-top: 15px;
+		
+		}
+		.image img{
+		     max-width: 150px; 
+   			object-fit: cover; /* Resmi içinde koru ve boşlukları oluştur */	
+   			z-index: 	99;
+   			border: 6px solid white	;
+   			border-bottom-left-radius: 20px;
+   			border-top-left-radius: 20px;
+   			border-bottom-right-radius: 20px;
+   		}
+
+
+   		 
+ 
+ 
+   		.content h5{ 
+   			margin-left: 	-85px;
+			margin-top: 15px;
+   			background: white;
+   			display: inline-block;
+   			color: black;
+   			width: 80%;
+   			padding: 0 0 5px 85px ;
+   			border-bottom-right-radius: 20px;
+   			border-top-right-radius: 20px;
+   		}
+   		.content .description{
+   			margin-bottom: 0;
+   			color: 	#f5f5f5		;
+   		}
+   		.content .rating{
+   			 
+   		}
+
+   		@media screen and (max-width: 600px) {
+		  body {
+		    font-size: 14px;
+		  }
+		  .content h5{
+		  	font-size: 25px;
+		  	width: 130%;
+		  }
+		  	.image img{
+		     max-width: 125px; 
+   			 
+   		}
+
+		}
+   	 
+
+/*
+*	the end of foodcard disyn
+*
+*/
+
+/* card disyn 
+.card {
+	display: flex;
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .image {
+	width: 40%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	box-sizing: border-box;  
+  }
+  
+  .content {
+	width: 10%;
+	padding: 15px;
+	box-sizing: border-box; 
+  }
+
+  */
+
+
+
+
+/***
+ * burası card page icin yapılan css başlangıcı
+ * */
+ 	
+ 	.qtyindec{
+ 		display: flex;
+ 		align-items: center;
+
+ 	}
+
+ 	.qtyindec span{
+ 		font-size: 24px;
+ 	}
+
+ 	.qtyindec a{ 
+ 		display: inline-block; 
+ 		margin: 0 10px; 
+ 		font-size: 32px; 
+ 		 
+ 	}
+ 	 .total{
+ 	 	 
+ 
+ 		 
+ 		font-size: 15px;
+ 	
+ 	 
+ 	}
+
+
+
+/***
+ * burası card page icin yapılan css sonudur
+ * */
+  
+  .card .image img {
+	width: 100%;
+	height: auto;
+  }
+  
+
+  
+  .title {
+	font-size: 1.5rem;
+	margin: 0;
+  }
+  
+  .description {
+	color: #555;
+  }
+  
+  .rating {
+	color: #f8d42e;
+  }
+  
+  .price {
+	margin: 10px 0;
+  }
+  
+  button {
+	padding: 10px;
+	font-size: 1rem;
+	cursor: pointer;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+  }
+  
+  .details {
+	background-color: #3498db;
+	margin-left: 10px;
+  }
+/* card disyn finish  */
+
+
+body .nav{
+
+	position: fixed;
+	padding-bottom: 70px;
+	bottom: 0;
+	left: 0; 
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--clr);
+	height: 70px;
+	 z-index: 100;
+	 border-top: 20px solid var(--clr);
+}
+
+
+
+
+.navigation{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	border-top-right-radius: 15px ;
+	
+	border-top-left-radius: 15px ;	
+
+	
+
+}
+
+
+.navigation ul{
+	padding: 0; 
+	margin: 0;
+	display: flex;
+	width: 350px;
+	justify-content: space-around;
+	
+}
+
+.navigation ul li{
+	position: relative;
+	list-style: none;
+	width: 70px;
+	height: 70px;
+	z-index: 1;
+}
+
+
+.navigation ul li a{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+
+.navigation ul li a .icon{
+	position: relative;
+	display: block;
+	line-height: 50px;
+	font-size: 1.5em;
+	text-align: center;
+	transition: 0.5s;
+	color: var(--clr);
+
+}
+
+.navigation ul li.active a .icon{
+	transform: translateY(-35px);
+}
+
+
+.navigation ul li a  .text{
+	position: absolute;
+	color: var(--clr);
+	font-weight: 600;
+	font-size: 1.25em;
+	letter-spacing: 0.05;
+	transition: 0.5s;
+	opacity: 0;
+	transform: translateY(20px);
+	
+}
+
+.navigation ul li.active a .text{
+	opacity: 1;
+	transform: translateY(10px);
+}
+
+ .indicator{
+	 position: absolute;
+	 top: -65%;
+	 width: 70px;
+	 height: 70px;
+	 border-radius: 50%;
+	 background: var(--green);
+	 border: 8px solid var(--clr);
+	 transition: 0.5s;
+}
+.indicator::before{
+	content: "";
+	position: absolute;
+	top: 70%;
+	left: -20px;
+	height: 20px;
+	width: 20px;
+	background-color: transparent;
+	border-top-right-radius: 20px;
+	box-shadow: 0px -10px 0 0 var(--clr) ; 
+
+}
+.indicator::after{
+	content: "";
+	position: absolute;
+	top: 70%;
+	right: -20px;
+	height: 20px;
+	width: 20px;
+	background-color: transparent;
+	border-top-left-radius: 20px;
+	box-shadow: 0px -10px 0px 0px var(--clr) ; 
+
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator{
+
+	transform:translateX(calc(70px * -2)) ;
+}
+.navigation ul li:nth-child(2).active ~ .indicator{
+
+	transform:translateX(calc(70px * -1)) ;
+}
+.navigation ul li:nth-child(3).active ~ .indicator{
+
+	transform:translateX(calc(70px * 0)) ;
+}
+.navigation ul li:nth-child(4).active ~ .indicator{
+
+	transform:translateX(calc(70px * 1)) ;
+}
+.navigation ul li:nth-child(5).active ~ .indicator{
+
+	transform:translateX(calc(70px * 2)) ;
+}
+/*
+
+*/

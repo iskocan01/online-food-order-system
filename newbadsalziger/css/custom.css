@@ -1,0 +1,76 @@
+
+
+ 
+
+
+body{
+	background-color: #ececec;
+
+}
+
+
+.car-area{
+ 
+ color: red;
+ font-size: 32px!important;
+ float: right;
+ margin-top: 30px;
+ font-size: 80px
+	 
+
+}
+
+
+
+
+.price{
+	font-size: 20px;
+	text-align: center;
+}
+.count{
+	font-size: 15px;
+}
+.cart-icon{
+
+	font-size: 32px!important;
+
+}
+.cart-count{
+	display: flex;
+  align-items: center;
+	padding: 0;
+	text-align: center;
+	border-radius: 16px;
+	margin: -25px 0 0 180px;
+	width: 32px;
+	height: 32px;
+	background-color: #b9534f;
+	font-size: 25px;
+	 
+}
+.color-danger{
+	color: #b9534f;
+}
+
+.color-primary{
+	color: #ececec;
+}
+.item-count-input{
+	width: 50px;
+	text-align: center;
+
+}
+td{
+	vertical-align: middle!important;
+}
+tfoot th{
+	padding: 20px!important;
+	background-color: #dfdfdf!important;
+	
+}
+table{
+	box-shadow: 0 0 8px rgba(5, 5, 5, .3);
+}
+table:hover{
+	box-shadow: 0 0 250px rgba(5, 5, 5, .3);
+}

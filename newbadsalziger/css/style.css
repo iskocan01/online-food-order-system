@@ -1,0 +1,519 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+
+
+  /*Burası navigasyon css başlangıcıdır ********/
+ #container-nav{
+    position: sticky; 
+     
+ }
+
+
+#navigation {
+    overflow-x: hidden;
+    padding: 5px;
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+    background-color: #ece;
+}
+ #navigation .active {
+    background-color: #323E3E  ; 
+    color: #fff;
+  }
+#navigation a {
+     
+    color:black;
+    
+    margin: 0 4px  0 4px; 
+   
+    padding: 1%; 
+    border-radius: 9px;
+    cursor: pointer;
+    
+     
+}
+
+#navigation ul {
+     transition: transform 0.3s ease-in-out;
+
+}
+
+#navigation button {
+    z-index: 5;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    background: #ececec;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #navigation button.prev {
+    left: 0;
+  }
+  
+  #navigation button.next {
+    right: 0;
+  }
+
+
+#navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#navigation ul li a {
+  color: #000;
+  text-decoration: none; 
+  padding: 10px;
+  display: block;
+}
+
+#food-nav .back-image{
+     
+     background-position: left center; 
+    height:100px;
+     
+    border-radius: 10px;
+     
+}
+#food-nav .back-image h2{
+     
+    left: 0;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: -12px;
+    width: 103%;
+    position: static;  
+    
+    padding: 10px;
+    bottom: 0; 
+     
+}
+
+
+ /*Burası navigasyon css Bitişidir *** ********/
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-dangery{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: #f1f2f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-dangery:hover{
+    background-color: #ff4757;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.cart{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.cart-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+
+}
+.yanyana{
+    display: inline-block;
+}
+
+.cart img{
+
+    width: 200px;
+}
+.btn-kare{
+    padding: 1%;
+    width: 25px;
+    height: 25px;
+
+}
+ 
+.cart-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.cart-qty{
+    width: 15%;
+    
+    height: auto;
+    padding: 1%;
+     font-size: 1.2rem;
+    margin: 2% 0 0 10%;
+
+}
+.cart-action{
+    width: 25%;
+}
+
+.img-responsive{
+    width: 100%;  
+    
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.setborder{
+    border: 1px solid black;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: -10px;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 10%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+ 
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/badsalzing.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+}
+ 
+
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+     
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%; /*burası 20 idi*/
+    float: left;
+}
+
+.food-menu-desc{
+    width: 50%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/*son eklenen giriş formu için kayıt formu*/
+
+/*son eklenen giriş formu için kayıt formu sonuu*/
+          #kayitFormu{
+                
+                border-radius:10px;
+                background:#ffffff;
+                width:360px;
+                margin:auto;
+                margin-top:20px;
+                padding:15px;
+                text-align:center;
+            }
+            input, button
+            {
+                border-radius:5px;
+                border:none;
+                width:300px;
+                height:50px;
+                margin:20px 0px 20px 0px;
+                background:rgba(240,240,240,.5);
+                padding-left:15px;
+                font-style:italic;
+                
+            }
+            
+            .btn-login{
+                background:#76b852;
+                color:white;
+            }
+
+            .btn-login:hover{
+                background: white;
+                color: black;
+            }
+
+            h3{
+                color:#333;
+                text-transform:uppercase;
+                font-size:20px;
+            }
+            
+
+
+
+.sifre-yanlis{
+    font-size: 10px;
+    color: red;
+
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}

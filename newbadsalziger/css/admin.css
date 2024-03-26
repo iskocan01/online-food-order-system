@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+table input,table select,table textarea  {
+	padding: 1%;
+	border-radius: 5px;
+	 
+}
+table td {
+	font-size: 15px;
+}
+
+ input[type="radio"] {
+  transform: scale(1.8); /* Boyutunu değiştirmek için */
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+
+
+
+#shower {
+	 
+	display: flex;
+	justify-content: flex-end;
+
+	 
+
+
+} 
+
+#shower .box {
+	 
+	
+	display: flex;
+	 
+	width: 125px;
+	 
+	 
+}
+
+#shower .box div{
+	 
+	
+	 
+	 
+	 
+} 
+
+#shower .box .color{
+	height: 20px;
+	width: 20px;
+	 margin-right:3%;
+}
+ 
+
+
+
+
+
+.pad-2{
+	padding: 2%;
+}
+
+.my-light-color{
+	background-color: #F5F5F5;
+}
+
+.wrapper{  
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto; 
+}
+.text-center{
+
+	text-align: center;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+.tbl-full{
+	width: 100%; 
+}
+table tr th{
+	border-bottom: 1px solid black ;
+	padding: 1%;
+	text-align: left;
+}
+table tr td{
+	padding: 1%;
+}
+.btn-primary{
+	background-color: #1e90ff;
+	padding: 1%;
+	color: #f1f2f6;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+
+.btn-secondary{
+	background-color: #7bed9f;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color: #2ed573;
+}
+
+.btn-dangery{
+	background-color: #ff6b81;
+	padding: 1%;
+	color: #f1f2f6;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-dangery:hover{
+	background-color: #ff4757;
+}
+
+.success{
+	color: #2ed573;
+}
+.error{
+	color: #ff4757;
+}
+
+
+/* CSS Menü ******************************************************************************/
+
+.menu{
+	border-bottom: 1px solid gray;
+	
+}
+
+.menu ul{
+	list-style-type: none;
+	position: static;
+}
+.menu ul li{
+	display: inline; 
+	padding: 1%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff6b81;
+
+}
+.menu ul li a:hover{
+	color: #ff4757;
+}
+ 
+.profil{
+	border: 1px solid gray;
+	position: fixed;
+	float: left;
+	right: 5px;
+	top: 5px;
+	float: right;
+	width: 30%;
+	height: 33px;
+
+	margin: 0;
+	top: 0;
+}
+.p-foto{
+	border: 1px solid gray;
+	float: left;
+	position: static;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+
+}
+.p-foto h6{
+	position: static; 
+	float: left;
+	
+	
+}
+
+
+/*CSS for Main Content ********************************************************************/
+.main-content{ 
+	background-color: #f1f2f6;
+	padding: 3% 0;
+}
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+
+
+/* CSS for furter */
+
+.footer{
+	background-color: #ff4757;
+}
+
+/*CSS for Login Admin*/
+
+.login{
+	margin: 10% auto;
+	border: 1px solid gray;
+	width: 20%;
+	padding: 2%;
+
+}
+.sifre-yanlis{
+	font-size: 10px;
+	color: red;
+
+}

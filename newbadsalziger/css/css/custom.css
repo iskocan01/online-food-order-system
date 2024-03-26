@@ -1,0 +1,263 @@
+
+
+#time{
+     
+    padding: 10px;
+}
+
+#time li {
+    list-style: none;
+   padding: 10px;
+   
+   display: inline;
+}
+
+#time li a{
+    
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#time_div{
+    
+     width:250px;
+}
+
+#categories-li ul li{
+    display: block;
+   
+
+}
+
+
+.modal-time-select{
+   
+    margin: 5px auto;
+    padding: 5px 150px ;
+    text-decoration: none;
+    color: white;
+    justify-content: center ;
+
+}
+
+.modal-time-select ul{
+     
+    padding: 0;
+}
+
+.modal-time-select ul li{
+    display: block;
+    margin: 5px;
+    
+}
+
+
+
+#categories-li{
+    
+    display: none;
+     
+    position: static;
+    /* margin-top: -160px;
+    margin-left: 170px; */
+}
+
+#time li:hover #categories-li{
+    display: block;
+    
+}
+
+
+.btn1{
+    background-color: #C82538;
+}
+
+.btn2{
+    background-color: #B13433;
+}
+
+.btn3{
+    background-color: #8D472B;
+}
+
+.btn4{
+    background-color: #45731E;
+}
+
+.btn5{
+    background-color: #2E7F18;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
+    background-color: #675E24;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#delivery-time{
+    background-color: aquamarine; 
+    padding: 10px;
+}
+
+#delivery-time li {
+    list-style: none;
+   padding: 10px;
+   display: inline;
+}
+
+#delivery-time li a{
+    
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#delivery-time  li:hover{
+    background-color: red;
+}
+
+#delivery-time i{
+    padding-right: 5px;
+}
+
+#choose-time ul li{
+    display: block;
+}
+
+#choose-time{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 97px;
+}
+
+li:hover #choose-time{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+#delivery-time{
+    
+}
+
+#delivery-time li {
+    list-style: none;
+    
+    
+}
+#delivery-time div{
+ 
+    
+   
+    border: 1px solid black;
+    margin-left:77px;
+    margin-top: -37px;
+     
+    padding: 0 5px;
+    margin-right: 0;
+    width: 130px;
+}
+
+#delivery-time div ul{
+    margin:0 ;
+    padding:0;
+    padding-left: 5px;
+}
+
+#delivery-time div ul li{
+     
+    margin-top: 2px;
+    padding: 2px 30px;
+}
+#delivery-time div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#choose-time{
+    display: block;
+    position: absolute;
+}
+
+  #delivery-time :hover #choose-time{
+   background-color: black;
+   display: none;
+}
+
+*/
