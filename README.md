@@ -35,10 +35,18 @@ Müşterinin bulunduğu bölgeye göre eve servis fiyatı değişmektedir.
 Müşteri siparişi tamamladıktan sonra Restorant sahibinin sistemine bildirim düşüp siparişi onaylamasını bekler.
 
 Restourant sahibi siparişi onaylamadan önce adrese kaç dakika içerisinde gideceğinin tahmini bilgisini seçer ve ona göre bir süre belirler.
+
 ![image](https://github.com/iskocan01/online-food-order-system/assets/116522309/4212862a-8aac-4c83-b385-7f240adec31a)
 
 Bu süre ile birlikte müşterinin kayıtlı olduğu mail adresine sipariş bilgisi ve ortalama ne zaman teslim edileceğini mail yolu ile otomatik gönderilir.
 
 Müşterilerin verdikleri siparişler ve bilgileri ni gösterildiği alanda listenir.
+![image](https://github.com/iskocan01/online-food-order-system/assets/116522309/3bf9b00f-fc18-4f20-b015-7b46a5915229)
+
+Her kategori için extra ürün ekleyebiliyoruz ve eklenen extra ürünlerin fiyat farkını değerin girebiliyoruz.
+![image](https://github.com/iskocan01/online-food-order-system/assets/116522309/2ee850c6-bba6-439b-9006-8c301a462d68)
+ 
+Canlı olarak sistemi görüntülemek için :
+https://badsalziger-kebab.de/
 
 
